@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1604593171462-db894e54a1a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRpYnVqb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 600px;
+    color: #f4b836;
+    letter-spacing: 5px;
+    text-align: center;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.desplegar {
+    font-size: 30px;
+    font-weight: 300px;
+    color: #f4b836;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px; 
+}
+
+.desplegar select {
+    width: 600px;
+    height: 50px;
+    background-color: bisque;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.desplegar select:hover {
+background-color: #f4b836;
+}
+
+.boton {
+    background-color: burlywood;
+    border: none;
+    color: bisque;
+    font-size: 20px;
+    padding: 5px 5px;
+    text-align: center;
+    transition-duration: 0.4s;
+    height: 50px;
+}
+
+.boton1 {
+    background-color: white;
+    color: #f4b836;
+    border: 2px solid #f4b836;
+}
+
+.boton1:hover {
+    background-color: #f4b836;
+    color: white;
+}
+
+h3 {
+    color: burlywood;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    text-align: center;
+    margin-top: 100px;
+    /* position: relative; */
+}
